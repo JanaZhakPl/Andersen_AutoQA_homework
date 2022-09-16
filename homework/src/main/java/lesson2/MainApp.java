@@ -12,6 +12,7 @@ import static lesson2.Exercise_6.fillArray;
 import static lesson2.Exercise_7.changeArray;
 import static lesson2.Exercise_8.fillDiagonal;
 import static lesson2.Exercise_9.initialValueArray;
+import static lesson2.RotateArray.shiftArray;
 
 public class MainApp {
     public static void main(String[] args) {
@@ -26,7 +27,8 @@ public class MainApp {
         changeArray(new int[]{1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1});
         fillDiagonal(5);
         printArrayInConsole(initialValueArray(3, 8));
-
+        printArrayInConsole(shiftArray(new int[]{1, 2, 3}, 1));
+        printArrayInConsole(shiftArray(new int[]{6,1,3,5,2}, -2));
     }
 
     public static void printArrayInConsole(int[] inputArray) {
