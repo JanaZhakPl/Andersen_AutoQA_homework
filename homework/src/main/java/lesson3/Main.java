@@ -2,6 +2,7 @@ package lesson3;
 
 public class Main {
     public static void main(String[] args) {
+
         Employee[] list = new Employee[5];
         list[0] = new Employee("Иванов Иван Иванович", "Engineer", "ivivan@mailbox.com", "892312312", 10000, 40);
         list[1] = new Employee("Петров Петр Петрович", "Manager", "petr@mailbox.com", "289231231", 10000, 20);
