@@ -18,9 +18,9 @@ public class MainApp {
     public static void main(String[] args) {
         System.out.println(within10and20(10, 0));
         isPositiveOrNegative(5);
-        System.out.println(isNegative(-10));
+        System.out.println(isNegative(10));
         printWordNTimes("SomeText", 2);
-        System.out.println(isLeapYear(2096));
+        System.out.println(isLeapYear(2022));
         invertArray(new int[]{1, 0, 1, 0, 0, 1});
         System.out.println();
         fillArray();
