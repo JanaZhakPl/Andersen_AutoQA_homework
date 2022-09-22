@@ -6,9 +6,6 @@ package lesson2;
  */
 public class Exercise_3 {
     public static boolean isNegative(int a) {
-        if (a < 0) {
-            return true;
-        }
-        return false;
+        return a < 0;
     }
 }

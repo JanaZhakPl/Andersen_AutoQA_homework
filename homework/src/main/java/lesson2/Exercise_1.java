@@ -6,8 +6,6 @@ package lesson2;
  */
 public class Exercise_1 {
     public static boolean within10and20(int a, int b) {
-        int sum = a + b;
-        if (sum >= 10 && sum <= 20) return true;
-        else return false;
+        return a + b >= 10 && a + b <= 20;
     }
 }
