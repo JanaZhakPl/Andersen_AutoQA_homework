@@ -2,7 +2,7 @@ package lesson4.Animals;
 
 public abstract class Animal {
     String name;
-    static int count = 0;
+    static int count;
 
     public Animal(String name) {
         this.name = name;
