@@ -9,20 +9,12 @@ public abstract class Animal {
         count++;
     }
 
-    public void setName() {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
     }
 
     public static int getCount() {
         return count;
-    }
-
-    public static void setCount(int count) {
-        Animal.count = count;
     }
 
     @Override
