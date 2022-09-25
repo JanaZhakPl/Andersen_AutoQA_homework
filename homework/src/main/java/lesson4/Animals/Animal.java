@@ -9,14 +9,6 @@ public class Animal {
         count++;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public static int getCount() {
-        return count;
-    }
-
     @Override
     public String toString() {
         return "Animal{" +

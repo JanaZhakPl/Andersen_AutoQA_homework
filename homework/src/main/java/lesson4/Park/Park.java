@@ -1,14 +1,12 @@
 package lesson4.Park;
 
-import lesson4.Payment.Payment;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Park {
     List<Attraction> attractions = new ArrayList<>();
 
-    public class Attraction {
+    public static class Attraction {
         private String name;
         private String graphic;
         private double price;
@@ -30,7 +28,7 @@ public class Park {
     }
 
     public void addAttraction(String name, String graphic, int price) {
-        attractions.add(new Park.Attraction(name, graphic, price));
+        attractions.add(new Attraction(name, graphic, price));
     }
 
     public void showInfo() {
