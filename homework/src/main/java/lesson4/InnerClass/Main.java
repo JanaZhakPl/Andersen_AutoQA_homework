@@ -1,4 +1,6 @@
-package lesson4.Park;
+package lesson4.InnerClass;
+
+import lesson4.InnerClass.Park;
 
 /**
  * Создать класс Park с внутренним классом, с помощью объектов которого можно хранить информацию об аттракционах,
@@ -11,5 +13,13 @@ public class Main {
         park.addAttraction("carousel", "12:00 - 20:00", 8);
 
         park.showInfo();
+
+        Payment payment = new Payment();
+
+        payment.addProduct("Book", 40, 1);
+        payment.addProduct("Notebook", 25, 5);
+        payment.addProduct("Pen", 10,10 );
+
+        payment.showProducts();
     }
 }

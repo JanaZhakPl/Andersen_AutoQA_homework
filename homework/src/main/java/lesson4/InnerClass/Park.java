@@ -1,4 +1,4 @@
-package lesson4.Park;
+package lesson4.InnerClass;
 
 import java.util.ArrayList;
 import java.util.List;
