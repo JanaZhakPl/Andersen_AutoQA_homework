@@ -13,7 +13,7 @@ public class Payment {
     public Payment() {
     }
 
-    private class Product {
+    private static class Product {
         private String name;
         private double price;
         private int quantity;

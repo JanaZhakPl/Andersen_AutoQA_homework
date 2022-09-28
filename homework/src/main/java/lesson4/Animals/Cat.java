@@ -8,10 +8,6 @@ public class Cat extends Animal {
         count++;
     }
 
-    public static int getCount() {
-        return count;
-    }
-
     @Override
     public void run(int distance) {
         if (distance <= 200)
