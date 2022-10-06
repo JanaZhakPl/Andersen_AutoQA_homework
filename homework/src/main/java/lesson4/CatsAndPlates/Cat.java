@@ -20,6 +20,12 @@ public class Cat {
     }
 
     public void eat(Plate p) {
-        p.decreaseFood(appetite);
+        if (!satiety && getAppetite() < p.food) {
+            p.decreaseFood(appetite);
+            this.satiety = true;
+            System.out.println("Кот " + getName() + " поел");
+        } else {
+            System.out.println("Кот " + getName() + " не поел!");
+        }
     }
 }

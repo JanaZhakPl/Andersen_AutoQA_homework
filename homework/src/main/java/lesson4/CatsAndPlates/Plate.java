@@ -16,6 +16,10 @@ public class Plate {
     }
 
     public void increaseFood(int extra) {
-        food += extra;
+        if (extra > 0)
+            food += extra;
+        else {
+            System.out.println("нельзя вводить отрицательное число ");
+        }
     }
 }
