@@ -11,7 +11,6 @@ public class PhoneBook {
 
     public void get(String lastName) {
         if (phoneBook.containsValue(lastName)) {
-            List<String> result = new ArrayList<>();
             for (Map.Entry<String, String> user : phoneBook.entrySet()) {
                 if (user.getValue().equals(lastName)) {
                     System.out.println(user.getValue() + " : " + user.getKey());
